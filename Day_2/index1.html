@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- em không biết làm thế nào để First name và cái bảng nó sát nhau và cách 1 khoảng nhỏ với 
+    email address nên làm như thế này nhưng vẫn chưa đúng @@,  -->
+    <style>
+        .btn{
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            padding: 8px 3px;
+            cursor: pointer;
+            background-color: #02B875; 
+        }
+       
+    </style>
+    <h1>Try a free sample</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Repudiandae beatae nostrum quibusdam unde quod <br> consequatur reiciendis accusantium numquam quos quam.</p>
+    
+    <table  width = "100%"  >
+        <tr>
+            <td><b>First name</b></td>
+            <td><b>Last Name</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="First name" placeholder="John"></td> 
+            <td><input type="Last name" placeholder="Smith"></td> 
+        </tr>
+
+        <tr>
+            <td><b>Email address</b></td> 
+            <td><b>Address</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="Email address" placeholder="john@example.com"></td>
+            <td><input type="Address" placeholder="Silk St"></td>
+        </tr>
+
+        <tr>
+            <td><b>City</b></td>
+            <td><b>State</b>(optional)</td>
+        </tr>
+
+        <tr>
+            <td><input type="City" placeholder="London"></td>
+            <td><input type="State (optional) " placeholder=""></td>
+        </tr>
+
+        <tr>
+            <td><b>ZIP Code</b></td>
+            <td><b>Country</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="ZIP Code" placeholder="EC2Y 8DS"></td>
+            <td>
+                <label for="q"></label> 
+                <input type="text" list="topics"  name ="q" id="q" placeholder="United KingDom"  >
+                <datalist id="topics">
+                    <option value="Viet Nam">
+                    <option value="England">
+                    <option value="Germanny">
+                    <option value="Korean">
+                    <option value="China">    
+                </datalist>
+            </td>
+        </tr>
+        
+    </table>
+       <br>
+       
+    <button class="btn btn--coffe">SEND ME FREE COFFE</button>
+
+    
+    
+    </html> 
