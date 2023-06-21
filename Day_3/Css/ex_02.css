@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  } 
+  
+  .size {
+    padding: 15px 10px 15px 10px;
+  }
+
+.client-say {
+    text-align: center;
+  }
+.paragraph-p {
+    text-align: center;
+    color: #5ca7fb;
+  }
+
+  .paragraph-john {
+    position: relative;
+    left: 160px;
+    bottom: 140px;
+  }
+
+  .name-john {
+    position: relative;
+    left: 145px;
+    bottom: 120px;
+  }
+
+
+
+
+
+
+  
+ 

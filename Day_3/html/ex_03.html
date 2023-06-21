@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 3 : Form Access Manager</title>
+    <link rel="stylesheet" href="/Css/ex_03.css" />
+  </head>
+
+  <body>
+    <table width="300px" align="center">
+      <tr>
+        <td>Username:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          City of <br />
+          Employment:
+        </td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Web server:</td>
+        <td>
+          <select>
+            <option value="" hidden>--Choose a server--</option>
+            <option value="sever1">Sever 1</option>
+            <option value="sever1">Sever 2</option>
+            <option value="sever1">Sever 3</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Please spectify <br />
+          your role:
+        </td>
+
+        <td>
+          <label><input type="radio" name="option" />Admin <br /></label>
+          <label><input type="radio" name="option" />Engineer <br /></label>
+          <label><input type="radio" name="option" />Manager <br /></label>
+          <label><input type="radio" name="option" />Guest</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Single Sign-on <br />to the following:</td>
+
+        <td>
+          <input type="checkbox" />Admin <br />
+          <input type="checkbox" />Payroll <br />
+          <input type="checkbox" />Self-service <br />
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td>
+          <button>Login</button>
+          <button>Reset</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

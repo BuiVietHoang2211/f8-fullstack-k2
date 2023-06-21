@@ -1,0 +1,24 @@
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-country li {
+    display: inline-block;
+    
+}
+
+.list-country li a {
+    color: #ae9556;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 40px;
+    display: inline-block;
+}
+
+.list-country li:active a {
+    color: #fff;
+    background-color: #ae9556;
+}
+
+
+

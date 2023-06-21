@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  } 
+
+  .paragraph {
+    color: #febd49;
+    padding-bottom: 30px;
+    
+  }
+
+  .your-input {
+    padding-right: 350px;
+    text-align: left;
+  }
+
+  .send-message {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #02B875;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: relative;
+    left: 457px;
+
+  }
