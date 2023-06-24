@@ -1,0 +1,53 @@
+/* Css Reservation */
+.reservation {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #3D2500;
+    font-family: "BebasNeue",sans-serif;
+}
+
+/* Css "title */
+.booking{
+    text-align: center;
+    font-size: 2rem;
+    font-family:  "Alfa Slab One",sans-serif;
+    color: #3D2500;
+}
+
+/* Css table */
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Css input */
+input {
+    width: 350px;
+    height: 50px;
+}
+input::placeholder{
+    font-weight: bold;
+}
+.input-people{
+    width: 370px;
+    height: 50px;   
+}
+/* CSs button */
+button {
+    width: 355px;
+    height: 55px;
+    background-color: #a20a05e4;
+    border-radius: 10px;
+    border: 2px solid #a20a05e4 ;
+    font-family: "Alfa Slab One",sans-serif;;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.information-list::placeholder{
+    color: #3D2500;
+    font-family: "BebasNeue",sans-serif;;
+}
+
+

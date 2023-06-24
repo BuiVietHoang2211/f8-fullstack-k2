@@ -1,0 +1,36 @@
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.footer {
+    background-color: #3B4856;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+.highlight {
+    color: #E49D22;
+}
+input  {
+    width: 200px; 
+    height: 30px; 
+    border-radius: 4px;
+  }
+button {
+    width: 200px; 
+    height: 35px;
+    border-radius: 4px;
+    background-color: yellow;
+}
+input:hover::placeholder {
+    color: #E49D22; 
+  }
+.btn:hover{
+    background-color: #E49D22;
+    color: #fff;
+}
