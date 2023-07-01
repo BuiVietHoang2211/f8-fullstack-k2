@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+.title-heading {
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.paragraph-title {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.item-list {
+    display: flex;
+}
+

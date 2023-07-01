@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1: Hey There</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="/css/ex01.css" />
+    <link
+      rel="stylesheet"
+      href="/font/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="headline">
+        <h2>Hey There</h2>
+      </div>
+
+      <div class="paragraph-headline">
+        <p>
+          <hightlight>We'd like to hear form you</hightlight>. Send us your
+          message or just say hy with our
+          <br />
+          contact form or directly via phone, we love to chat.
+        </p>
+      </div>
+
+      <form method="get">
+        <div class="product-content">
+          <div class="your-name">
+            <i class="fa-solid fa-user"></i>
+            <label for="">
+              <input
+                type="text"
+                name="yourname"
+                id="name"
+                placeholder="Your name"
+              />
+            </label>
+          </div>
+
+          <div class="email-form">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="your@domain.com"
+              />
+            </label>
+          </div>
+
+          <div class="phone-number-form">
+            <label for="phonenumber">
+              <input
+                type="text"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="+44 00 123"
+              />
+            </label>
+          </div>
+
+          <div class="subject-form">
+            <i class="fa-solid fa-book"></i>
+            <select name="subject" id="subject">
+              <option value="">Subject</option>
+              <option value="math">Math</option>
+              <option value="music">Music</option>
+              <option value="art">Art</option>
+            </select>
+          </div>
+
+          <div class="message">
+            <i class="fa-solid fa-message"></i>
+            <label for="message">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="action">
+            <label for="action-1"
+              ><input
+                type="checkbox"
+                name="action-1"
+                id="action-1"
+                class="action-1"
+                checked
+              />
+              <span>Send me a copy of this message</span></label
+            >
+            <button class="btn">SEND</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
