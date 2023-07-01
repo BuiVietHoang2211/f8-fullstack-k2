@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+body {
+    background-image: url(http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg);
+}
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box {
+    height: 400px;
+}
+/* Start box 1 */
+.box-1 {
+    width: 350px;
+    background-color: #ff574d;
+}
+.headline-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    color: #fff;
+    font-size: 30px;
+}
+.paragraph-title {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+.read-more {
+   text-align: center;
+   padding: 10px;
+}
+.read-more > .btn-readmore {
+    padding: 10px 40px;
+    border-radius: 4px;
+    border-color: #ff574d;
+    color: #ff574d;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.icon > a i {
+    margin: 0 10px;
+}
+.icon > a:hover {
+     background-color: #FC4F00;
+}
+/* End box 1 */
+
+
+/* Start box 2 */
+.box-2 {
+    width: 500px;
+    background-color: #fff;
+}
+
+.headline-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: #111;
+    font-size: 20px;
+}
+.headline-2 span {
+    color: #ff574d;
+}
+.paragraph-title2 {
+    color: #ff574d;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.email {
+    width: 400px;
+    height: 40px;
+    padding: 20px;
+}
+.email-form  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.password {
+    width: 400px;
+    height: 40px;
+    padding: 20px;
+}
+.password-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.member {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.login {
+    text-align: center;
+    padding: 30px;
+}
+.login > .btn-login {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #ff574d;
+    color: #fff;
+    background-color: #ff574d;
+}
+
+.paragraph-end {
+    text-align: center;
+}
+/* End box 2 */
+

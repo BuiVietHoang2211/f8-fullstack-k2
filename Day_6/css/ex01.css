@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+header .logo {
+    border: 1px solid #ccc;
+}
+
+header .logo > a {
+    display: block;
+    padding: 15px 20px;
+}
+
+header .nav {
+    display: flex;
+    list-style: none;
+}
+
+header ul.nav > .box {
+    padding: 15px 200px;
+    border: 1px solid #ccc;
+}
+
+header ul.nav >li {
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+header ul.nav > li > .subnav {
+    position: absolute;
+    background-color: #ccc;
+    list-style: none;
+    top: 49px;
+    width: 150px;
+    display: none;
+}
+header ul.nav > li:hover > .subnav {
+    display: block;
+}
+header ul.nav > li:hover {
+    background-color: #2da5da;
+}
+header ul.nav > li:hover > a {
+    color: #fff;
+}
+header ul.nav > li > .subnav > li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+
+}
