@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+html {
+    font-family: 'Asap', sans-serif;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.headline {
+    font-size: 25px;
+    padding: 10px ;
+}
+
+.menu-list {
+   padding: 20px 0 20px 0;
+}
+
+.menu-list ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;   
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.menu-list ul li:hover  {
+    background-color: #C38154;
+}
+
+.menu-list ul li:hover a {
+    color: #fff;
+}
+
+.menu-list ul li > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-list ul li > .product-content {
+    font-size: 10px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.menu-price {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-price img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-image {
+    position: relative;
+    padding-bottom: 40px;
+}
+.location {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    left: 10%;
+    top: 10%;
+}
+
+.sale-price {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    color: #fff;
+}
+
+.sale-price > hightlight {
+    font-weight: bold;
+}
+

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+html {
+    font-family: 'Asap', sans-serif;
+}
+
+.wrapper .image {
+    position: relative;
+}
+
+.wrapper .avartar-vingroup {
+    position: absolute;
+    background-color: #fff;
+    left: 10%;
+    bottom: 0;
+}
+
+.wrapper .headline {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 23%;
+    left: 30%;
+}
+
+.wrapper .born {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+.wrapper .born hightlight {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.wrapper .sold {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+}
+
+.wrapper .sold hightlight {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 70%;
+}
+
+.menu-list > li {
+    padding: 20px;
+}
+.menu-list > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-list > li:hover > a {
+    color: chocolate;
+}
+
+
+   
