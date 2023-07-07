@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+html {
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: #f6f6f8;
+    align-items: center;
+    position: relative;
+}
+
+header .logo {
+    /* width: 30%; */
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #353e4f;
+    font-weight: bold;
+    
+
+}
+
+header ul.menu {
+    display: flex;
+    list-style: none;
+    
+}
+
+header ul.menu > li {
+    padding: 25px 20px;
+}
+
+header ul.menu li > a {
+    text-decoration: none;
+    color: #353e4f;
+}
+
+.menu li a::after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.menu-item {
+    /* position: relative; */
+}
+
+.menu-item:hover .menu-child {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu-child-item h3 {
+    color: #353e4f;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+}
+
+.menu-child-item {
+    width: 20%;
+}
+
+.menu-child-list li {
+    padding: 1rem;
+    list-style: none;
+    color: #353e4f;
+}
