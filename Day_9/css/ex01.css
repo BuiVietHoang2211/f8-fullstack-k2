@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-item {
+    display: flex;
+}
+
+.content ,  .list-item > span {
+    flex: 1;
+    padding: 20px;
+}
+.content {
+    text-align: right;
+    position: relative;
+}
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 10px;
+}
+.content p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.tag {
+    transition-property: color, background-color ;
+    transition: 0.3s ease;
+    padding: 5px 15px;
+    background-color: #F3F3F3;
+    border-radius: 99px;
+}
+
+.year {
+    line-height: 31.2px;
+    position: relative;
+    
+}
+.content::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ECF5F3;
+    right: -10px;
+    top: 25px;
+}
+.content::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #45988A;
+    right: -5px;
+    top: 30px;
+}
+
+.year::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: #ddd;
+    top:65px;
+    left: 0px;
+}
+
+.list-item:hover .content {
+       order: 2;
+       text-align: left;
+}
+
+.list-item:hover .content::before {
+     left:  -10px;
+} 
+.list-item:hover .content::after {
+    left:  -5px;
+}
+
+.list-item:hover .year::before {
+    left: 100%;
+}
+.list-item:hover .year {
+    order: 1 ;
+    text-align: right;
+}
+
+.list-item:hover .tag {
+    
+    color: #fff;
+    background-color: #A26F5A;
+}
+
+.image-item {
+    position: relative;
+    flex: 1;
+    text-align: right;
+}
+
+.iamge-big img {
+    margin-top: 40px;
+    width: 400px;
+}
+
+.image-small img {
+    top: 150px;
+    left: 155px;
+    position: absolute;
+    width: 200px;
+}
+
+.image-small > .box {
+    position: absolute;
+    left: 180px;
+    top: 170px;
+    width: 150px;
+    height: 260px;
+    background-color: #415AAF;
+}
+
+.box .title-end {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    padding: 10px;
+}
+
+.box .title-end > .address {
+   font-size: 60px;
+   font-weight: bold;
+   color: #F7F9FB;
+}
+
+.box .title-end > p {
+      font-size: 13px;
+      color: #C7CEE7;
+}
+
+
+
+
