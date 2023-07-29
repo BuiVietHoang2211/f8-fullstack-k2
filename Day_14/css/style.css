@@ -1,0 +1,329 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  color: #2c2c2c;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .action {
+  display: flex;
+  align-items: center;
+  gap: 0 50px;
+  margin-left: 50px;
+}
+.header .menu-toggle {
+  display: none;
+}
+.header .overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2392156863);
+  transition: 0.4s ease;
+  transition-property: opacity, visibility;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 50px;
+  margin-left: auto;
+}
+.menu-link {
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0 15px;
+  }
+  .header .container .header-container .menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    min-width: 250px;
+    background: #fff;
+    translate: -100%;
+    transition: translate 0.4s ease;
+    z-index: 1;
+  }
+  .header .container .header-container .menu {
+    display: block;
+    padding: 20px 0;
+  }
+  .header .container .header-container .menu .menu-item .menu-link {
+    display: block;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .header .container .header-container .menu-toggle {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .header .container .header-container .action {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .header .container input[type=checkbox]:checked ~ .menu {
+    translate: 0;
+  }
+  .header .container input[type=checkbox]:checked ~ .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.hero {
+  padding-bottom: 100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 16px;
+}
+.hero-content {
+  width: 100%;
+}
+.hero-image {
+  background: #dcffca;
+}
+.hero-heading {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.31;
+  color: #2c2c2c;
+  max-width: 515px;
+}
+.hero-sub-heading {
+  font-size: 43px;
+  font-weight: 800;
+  max-width: 380px;
+}
+.hero-desc {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 449px;
+  margin-top: 27.67px;
+}
+
+@media screen and (max-width: 991px) {
+  .hero .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero .hero-container .hero-image {
+    margin-top: 30px;
+  }
+}
+.quantity {
+  padding-bottom: 100px;
+}
+.quantity-text {
+  text-align: center;
+  width: 100%;
+}
+.quantity-heading {
+  width: 558px;
+  font-size: 3.166rem;
+  font-weight: 800;
+  line-height: 1.31;
+  margin: 0 auto;
+  margin-bottom: 24.33px;
+}
+.quantity-desc {
+  width: 643px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.27;
+  margin: 0 auto;
+}
+.quantity-wrapper {
+  margin-top: 25px;
+}
+.quantity-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 21.67px;
+}
+.quantity-item {
+  width: 342.5px;
+  background: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
